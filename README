@@ -1,0 +1,17 @@
+Author: Troy Mcilvena
+Website: http://www.troymcilvena.com
+Twitter: @mcilvena
+
+Usage:
+
+$(element).retina([<filename_suffix:default=-2x>]);
+
+Example:
+
+<script src="js/jquery.retina.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('img.retina').retina();
+	});
+</script>
