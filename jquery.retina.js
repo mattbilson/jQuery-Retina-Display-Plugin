@@ -1,11 +1,12 @@
 /*
 	Author: Troy Mcilvena (http://troymcilvena.com)
 	Twitter: @mcilvena
-	Date: 23 August 2010
-	Version: 1.0
+	Date: 27 August 2010
+	Version: 1.1
 	
 	Revision History:
 		1.0 (23/08/2010)	- Initial release.
+		1.1 (27/08/2010)	- Made plugin chainable
 */
 
 jQuery.fn.retina = function(retina_part) {
@@ -24,4 +25,5 @@ jQuery.fn.retina = function(retina_part) {
 			}});
 		});
 	}
+	return this;
 }
